@@ -15,5 +15,5 @@ int main(){
     }
 }
 
-// n need to take anything as float
+// no need to take anything as float
 //no need to calculate factorials-time complexity
