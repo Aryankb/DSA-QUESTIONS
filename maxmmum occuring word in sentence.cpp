@@ -14,18 +14,17 @@ int main(){
     if(v.size()==1)cout<<temp<<1;
     sort(v.begin(),v.end());
     int m=INT_MIN,c=1;
-    for(int i=0;i<v.size()-1;i++){
+    for(int i=0;i<v.size();i++){
         if(v[i]==v[i+1])c++;
         else {c=1;}
         m=max(m,c);
     }
     c=1;    
-    for(int i=0;i<v.size()-1;i++){
+    for(int i=0;i<v.size();i++){
         
         if(v[i]==v[i+1])c++;
         else c=1;
         if(c==m)cout<<v[i]<<" "<<m<<endl;
     }
-    if(m==1)cout<<v[v.size()-1]<<" "<<m;
     
 }
