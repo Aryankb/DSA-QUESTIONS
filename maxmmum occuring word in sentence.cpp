@@ -11,7 +11,6 @@ int main(){
         v.push_back(temp);
 
     }
-    if(v.size()==1)cout<<temp<<1;
     sort(v.begin(),v.end());
     int m=INT_MIN,c=1;
     for(int i=0;i<v.size();i++){
